@@ -1,0 +1,7 @@
+CREATE TABLE usuario(
+id serial PRIMARY KEY,
+usuario varchar NOT NULL,
+email VARCHAR NOT NULL,
+senha varchar NOT NULL,
+perfil varchar NOT NULL
+);
